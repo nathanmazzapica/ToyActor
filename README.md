@@ -1,6 +1,6 @@
 # Toy Actor
 
-This sample project demonstrates a small *Actor Model + Pub/Sub (fan-out)* system in Go.
+This sample project demonstrates a small **Actor Model + Pub/Sub (fan-out)** system in Go.
 
 I built it to understand how a multiplayer lobby can:
 
@@ -12,8 +12,8 @@ I built it to understand how a multiplayer lobby can:
 
 
 ## What is all this?
-*Actor*: the `Counter` goroutine, which owns all state and processes `Command`s
-*Pub/Sub*: a notifier that fans out `Event`s to all subscribed goroutines
+**Actor**: the `Counter` goroutine, which owns all state and processes `Command`s
+**Pub/Sub**: a notifier that fans out `Event`s to all subscribed goroutines
 
 These patterns give you a clean model for multiplayer game state or any event-driven backend.
 
